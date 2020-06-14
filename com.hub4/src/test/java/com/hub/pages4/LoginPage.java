@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage {
 	WebDriver driver;
-	
+	//these is new comment
 	public LoginPage(WebDriver ldriver)
 	{
 		this.driver=ldriver;
@@ -22,6 +22,9 @@ public class LoginPage {
 		} catch (InterruptedException e) {
 			
 		}
+		
+		
+		
 		email.sendKeys(emailApplication);
 		pass.sendKeys(passApplication);
 		loginButton.click();
